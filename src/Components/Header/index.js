@@ -9,12 +9,12 @@ class Header extends Component{
     }
 
     componentDidMount(){
-        this.setState = {
+        this.setState ({
             title: 'New title'
-        }
+        });
     }
 
-    
+
     render(){
      return(
          <div>
